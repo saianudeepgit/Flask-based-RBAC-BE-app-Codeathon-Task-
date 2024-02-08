@@ -9,7 +9,7 @@ Created 2 Object Models
   2nd Object  - Employee
 
 Created Relationship of these Objects
-Then store and manage these object model on SQLite instance
+Then store and manage these object model on Local MongoDB instance
 
 # Secure this REST API using JWT authentication
 
