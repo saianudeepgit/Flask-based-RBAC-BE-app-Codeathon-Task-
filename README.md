@@ -18,4 +18,4 @@ Perform CRUD (POST, GET, PUT, PATCH, and DELETE) Operation on this API using Pos
 # Assign RBAC with following Rights
 1. Role 1 Should have Read only Permission
 2. Role 2 Should have Create & Read Permissions
-3. Role 3 Should have Create, Read & Update Permissions
+3. Role 3 Should have Create, Read , Update and Delete Permissions
