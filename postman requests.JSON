@@ -1,0 +1,18 @@
+post
+{
+    "name": "ABC organisation"
+}
+post
+{
+    "name": "XYZ University"
+}
+delete
+{
+    "name": "John Doe",
+    "organisation_id": "61e42ff15b290b2973c5c8d4"
+}
+put
+{
+    "title": "Introduction to Python Programming",
+    "college_id": "61e42fe05b290b2973c5c8d2"
+}
