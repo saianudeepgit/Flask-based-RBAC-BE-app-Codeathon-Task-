@@ -6,9 +6,9 @@ POST - http://localhost:portnumber/add
         "email":john@email.com,
         "pwd":"dfgdfgdgf"
         }
-Get all users  - http://localhost:portnumber/users
+GET (all users)  - http://localhost:portnumber/users
 
-Get specific with id - http://localhost:portnumber/user/ObjectID
+GET (specific with id) - http://localhost:portnumber/user/ObjectID
 
 DELETE -http://localhost:portnumber/delete/objectID
 
