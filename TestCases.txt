@@ -1,9 +1,20 @@
-1) Creating an Organisation with Role1 Permission:Test Case: Send a POST request to /create/organisation endpoint with valid JWT token containing role1 permission.Expected Outcome: Organisation should be created successfully in the database, and a success message should be returned.
+#1 CRUD TEST-CASES
 
-2) Creating a College with Role2 Permission:Test Case: Send a POST request to /create/college endpoint with valid JWT token containing role2 permission.Expected Outcome: College should be created successfully in the database, and a success message should be returned.
+POST - http://localhost:portnumber/add 
+        {
+        "name":"john",
+        "email":john@email.com,
+        "pwd":"dfgdfgdgf"
+        }
+Get all users  - http://localhost:portnumber/users
 
-3) Creating an Employee with Role3 Permission:Test Case: Send a POST request to /create/employee endpoint with valid JWT token containing role3 permission.Expected Outcome: Employee should be created successfully in the database, and a success message should be returned.
+Get specific with id - http://localhost:portnumber/user/ObjectID
 
-4) Creating a Book with Role3 Permission:Test Case: Send a POST request to /create/book endpoint with valid JWT token containing role3 permission.Expected Outcome: Book should be created successfully in the database, and a success message should be returned.
+DELETE -http://localhost:portnumber/delete/objectID
 
-5) Searching Entities with Role1 Permission:Test Case: Send a GET request to /search/<collection> endpoint with valid JWT token containing role1 permission.Expected Outcome: Entities from the specified collection should be retrieved based on the search query, and a JSON response should be returned.
+PUT - http://localhost:portnumber/update/ObjectID(of the document we want to change)
+       {
+        "name":"johnUpdated",
+        "email":johnUpdated@email.com,
+        "pwd":"zxczxczxc"
+        }
