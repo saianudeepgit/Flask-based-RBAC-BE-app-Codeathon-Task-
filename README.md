@@ -4,6 +4,10 @@
 
 Using Routes for each Method to make changes on MongoDB instance Via the Flask-App LocalServer 
 
+# Test the CRUD Operations Using Postman
+
+Send postman requests to the Flask Server to test PUT,POST,GET,DELETE operations
+
 # Secure this Rest API wit JWT
 
 # Assign RBAC with following Rights
