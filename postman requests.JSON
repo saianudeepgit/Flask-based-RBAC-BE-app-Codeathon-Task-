@@ -1,18 +1,14 @@
-post
+
+post - create
 {
-    "name": "ABC organisation"
+    "name":"john",
+    "email":"john@email.com",
+    "pwd":"dfgdfgdfg"
 }
-post
+
+put - Update
 {
-    "name": "XYZ University"
-}
-delete
-{
-    "name": "John Doe",
-    "organisation_id": "61e42ff15b290b2973c5c8d4"
-}
-put
-{
-    "title": "Introduction to Python Programming",
-    "college_id": "61e42fe05b290b2973c5c8d2"
+    "name":"johnUpdated",
+    "email":"johnUpdated@email.com",
+    "pwd":"thhredhth"
 }
