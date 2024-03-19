@@ -1,23 +1,9 @@
 # _Flask-based-RBAC-BE-app_ { Codeathon Task }
 
-# Create Flask-PyMongo App to Perform CRUD Operations on MongoDB
+# Create Flask-PyMongo App to Perform CRUD Operations on MongoDB Using Rest API
 
 Using Routes for each Method to make changes on MongoDB instance Via the Flask-App LocalServer 
-
-# Role Based Access Control Enabled BE with following functions
-
-Created 2 Object Models 
- 
-  1st Object  - Organisation
-
-  2nd Object  - Employee
-
-Created Relationship of these Objects
-Then store and manage these object model on Local MongoDB instance
-
-# Secure this REST API using JWT authentication
-
-Perform CRUD (POST, GET, PUT, PATCH, and DELETE) Operation on this API using Postman.
+Secure this Rest API wit JWT
 
 # Assign RBAC with following Rights
 1. Role 1 Should have Read only Permission
